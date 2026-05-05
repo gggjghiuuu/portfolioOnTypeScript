@@ -28,7 +28,7 @@ export const data: IData = {
   role: "Front-end developer/ Gamedev",
   bio: "Я очень крутой и очень круто делаю сайты. Могу также делать механики в игре",
   avatar:
-    "https://media.discordapp.net/attachments/1033379535749656656/1492240670159540294/1670967596_grizly-club-p-billi-kherrington-png-9.png?ex=69df3a2c&is=69dde8ac&hm=942f14a5b9072b1f1bfe38ed19da15ee123aba52b03393f2ee3cc9698e6445c3&=&format=webp&quality=lossless&width=330&height=385",
+    "https://www.image2url.com/r2/default/images/1778002237233-9b04b16b-0801-47c6-8532-06bf1aa1daf6.png",
   skills: [
     "HTML",
     "CSS",
