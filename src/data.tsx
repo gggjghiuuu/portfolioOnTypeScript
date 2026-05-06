@@ -12,6 +12,7 @@ export interface Project {
   langs: string[];
   image: string;
   link: string;
+  difficilty: "easy" | "medium" | "hard" | "expert";
 }
 interface IData {
   name: string;
@@ -54,6 +55,7 @@ export const data: IData = {
       image:
         "https://www.image2url.com/r2/default/images/1777552248180-e13b6aa5-7e8f-4ae2-8b3c-e9f90bd01a80.png",
       link: "https://task-manager-v1-five.vercel.app/",
+      difficilty: "hard",
     },
     {
       title: "Планировщик заданий",
@@ -62,6 +64,7 @@ export const data: IData = {
       image:
         "https://www.image2url.com/r2/default/images/1777554502688-c5104061-9052-4ba2-8fce-469e83685628.png",
       link: "https://react5-eosin.vercel.app/",
+      difficilty: "medium",
     },
     {
       title: "Time game",
@@ -70,6 +73,7 @@ export const data: IData = {
       image:
         "https://www.image2url.com/r2/default/images/1777741913391-9390aa3d-439f-412b-a5df-0e54dd7670c2.png",
       link: "https://timegame-three.vercel.app/",
+      difficilty: "easy",
     },
     {
       title: "Quiz",
@@ -78,6 +82,7 @@ export const data: IData = {
       image:
         "https://www.image2url.com/r2/default/images/1778000853198-9b09ce39-0cbc-44b5-8937-6020ed263377.png",
       link: "https://quiz-delta-two-64.vercel.app/",
+      difficilty: "medium",
     },
     {
       title: "Shop",
@@ -86,6 +91,7 @@ export const data: IData = {
       image:
         "https://www.image2url.com/r2/default/images/1778001172806-aebdcb53-7895-46de-b950-4cee2cbb5b28.png",
       link: "https://gggggshop-cyng8unfk-amudeshniks-projects.vercel.app/",
+      difficilty: "medium",
     },
     {
       title: "Мессенджер",
@@ -94,6 +100,7 @@ export const data: IData = {
       image:
         "https://www.image2url.com/r2/default/images/1778001354402-9725bdaf-ef98-469a-b7df-3840bd6c13c0.png",
       link: "https://social-friends-etdv.vercel.app/",
+      difficilty: "expert",
     },
     {
       title: "Место",
@@ -102,6 +109,25 @@ export const data: IData = {
       image:
         "https://www.image2url.com/r2/default/images/1778001639094-291bd487-3de1-42e0-8d89-7b14e61a53ac.png",
       link: "https://mestootootto.vercel.app/",
+      difficilty: "hard",
+    },
+    {
+      title: "Ясделие",
+      description: "Сайт, сделанный на заказ. Функционала нет",
+      langs: ["HTML", "CSS"],
+      image:
+        "https://www.image2url.com/r2/default/images/1778087108031-7064b702-f00d-4786-9fe2-eb292512d13c.png",
+      link: "https://gggjghiuuu.github.io/yasdelieeeee/",
+      difficilty: "easy",
+    },
+    {
+      title: "Портфолио",
+      description: "Вот этот сайт!",
+      langs: ["TypeScript", "React", "CSS"],
+      image:
+        "https://www.image2url.com/r2/default/images/1778001965674-4322856c-b243-40b1-b284-a14970721767.png",
+      link: "https://github.com/gggjghiuuu/portfolioOnTypeScript",
+      difficilty: "easy",
     },
   ],
 };
