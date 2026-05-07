@@ -126,7 +126,7 @@ export const data: IData = {
       langs: ["TypeScript", "React", "CSS"],
       image:
         "https://www.image2url.com/r2/default/images/1778001965674-4322856c-b243-40b1-b284-a14970721767.png",
-      link: "https://github.com/gggjghiuuu/portfolioOnTypeScript",
+      link: "https://www.image2url.com/r2/default/images/1778087559913-ecc75550-86a5-4b3f-bd6a-fb9afd97f220.png",
       difficilty: "easy",
     },
   ],
